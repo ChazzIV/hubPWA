@@ -1,5 +1,14 @@
 :host {
     display: block;
+    // background-image: linear-gradient(to right bottom, #f6cd8f, #d09180, #906470, #4c3f4e, #1a1b1f);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
     .content {
         min-height: calc(100vh - 80px - 40px);
     }

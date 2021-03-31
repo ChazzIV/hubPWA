@@ -1,0 +1,54 @@
+:host {
+    .principal {
+        display: flex;
+        justify-content: space-between;
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 10px 5px;
+            height: auto;
+        }
+        .izquierda {
+            width: 60%;
+        }
+        .derecha {
+            width: 40%;
+            .cta-down {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:989.98px) {
+     :host {
+        .principal {
+            display: flex;
+            flex-direction: column;
+            .container {
+                max-width: 1000px;
+                margin: 0 auto;
+                overflow: hidden;
+                padding: 10px 0;
+                height: auto;
+            }
+            .izquierda {
+                width: 100%;
+            }
+            .derecha {
+                width: 100%;
+                .cta-down {
+                    display: block;
+                    background: #00000080;
+                    color: #fff;
+                    padding: 20px 25px;
+                    position: absolute;
+                    z-index: 99;
+                    top: 85%;
+                    left: 79%;
+                }
+            }
+        }
+    }
+}

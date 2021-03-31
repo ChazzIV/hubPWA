@@ -1,0 +1,103 @@
+ .hero__main {
+     //  height: calc(100vh - 70px);
+     //  background-image: url("./assets/img/portada1.png");
+     //  .mockup {
+     //      object-fit: cover;
+     //      width: 100%;
+     //      min-height: 90vh;
+     //  }
+     .testimony__card {
+         width: 100%;
+         height: 85vh;
+         //  top: 66px;
+         background: linear-gradient( 180deg, #30353B 0%, #1A1B1F 100%);
+         border-radius: 0px;
+         position: relative;
+         //  z-index: 1;
+         //  margin: 35% 0px;
+         .testimony__img {
+             width: 100%;
+             height: 100%;
+             border-radius: inherit;
+             object-fit: cover;
+             object-position: 53% 100%;
+         }
+         .testimony__copy {
+             position: absolute;
+             top: 15px;
+             left: 5%;
+             width: 90%;
+             background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+             color: #fff;
+             margin: auto;
+             border-radius: 10px;
+             box-shadow: 0 8px 8px #00000033;
+             padding: 15px 8px;
+             display: flex;
+             align-items: center;
+             .testimony__logo {
+                 font-size: 40px;
+                 margin-right: 15px;
+                 display: inline-block;
+             }
+             .testimony__name {
+                 font-size: 24px;
+                 line-height: 28px;
+             }
+             .testimony__position {
+                 color: #f7d9d990;
+             }
+         }
+     }
+ }
+ 
+ @media screen and (min-width:1201px)and (max-width: 1999.98px) {
+     .hero__main {
+         .testimony__card {
+             height: 91vh;
+             .testimony__img {
+                 object-position: 25% 100%;
+             }
+         }
+     }
+ }
+ 
+ @media only screen and (min-width:990px) and (max-width: 1199.98px) {
+     .hero__main {
+         .testimony__card {
+             .testimony__img {
+                 object-position: 30% 100%;
+             }
+         }
+     }
+ }
+ 
+ @media screen and (max-width:989.98px) {
+     .hero__main {
+         .testimony__card {
+             height: 90vh;
+             .testimony__img {
+                 width: 100%;
+                 height: 100%;
+                 border-radius: inherit;
+                 object-fit: cover;
+                 object-position: center top;
+             }
+         }
+     }
+ }
+ 
+ @media only screen and (max-width: 500px) {
+     .hero__main {
+         .testimony__card {
+             height: 91vh;
+             .testimony__img {
+                 width: 100%;
+                 height: 100%;
+                 border-radius: inherit;
+                 object-fit: cover;
+                 object-position: 35% 100%;
+             }
+         }
+     }
+ }
