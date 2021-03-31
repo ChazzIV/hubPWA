@@ -1,0 +1,15 @@
+.header {
+    height: 60px;
+    background-color: #000;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+h2.logo {
+    margin-left: 2%;
+    img {
+        max-width: 100px;
+    }
+}
